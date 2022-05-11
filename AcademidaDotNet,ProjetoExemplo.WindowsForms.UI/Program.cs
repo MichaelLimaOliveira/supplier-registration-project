@@ -16,7 +16,7 @@ namespace AcademidaDotNet_ProjetoExemplo.WindowsForms.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FFormularioInicial());
+            
         }
     }
 }

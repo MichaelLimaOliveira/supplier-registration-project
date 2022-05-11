@@ -36,6 +36,9 @@
             this.txtContactName = new System.Windows.Forms.TextBox();
             this.lblFoneNumber = new System.Windows.Forms.Label();
             this.txtFoneNumber = new System.Windows.Forms.TextBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.dgvProviders = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProviders)).BeginInit();
             this.SuspendLayout();
             // 
             // lblProviderName
@@ -106,11 +109,31 @@
             this.txtFoneNumber.Size = new System.Drawing.Size(148, 20);
             this.txtFoneNumber.TabIndex = 1;
             // 
+            // btnSave
+            // 
+            this.btnSave.Location = new System.Drawing.Point(15, 214);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(180, 81);
+            this.btnSave.TabIndex = 2;
+            this.btnSave.Text = "Salvar";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // dgvProviders
+            // 
+            this.dgvProviders.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProviders.Location = new System.Drawing.Point(15, 323);
+            this.dgvProviders.Name = "dgvProviders";
+            this.dgvProviders.Size = new System.Drawing.Size(773, 325);
+            this.dgvProviders.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 660);
+            this.Controls.Add(this.dgvProviders);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtFoneNumber);
             this.Controls.Add(this.txtContactName);
             this.Controls.Add(this.txtAddres);
@@ -121,6 +144,7 @@
             this.Controls.Add(this.lblProviderName);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProviders)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -136,6 +160,8 @@
         private System.Windows.Forms.TextBox txtContactName;
         private System.Windows.Forms.Label lblFoneNumber;
         private System.Windows.Forms.TextBox txtFoneNumber;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.DataGridView dgvProviders;
     }
 }
 
