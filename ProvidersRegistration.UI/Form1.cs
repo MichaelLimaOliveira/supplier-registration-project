@@ -8,15 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AcademidaDotNet_ProjetoExemplo.WindowsForms.UI
+namespace ProvidersRegistration.UI
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
+          
         }
-
+        
         private void btnSave_Click(object sender, EventArgs e)
         {
             var provider = new Providers();
@@ -31,20 +32,21 @@ namespace AcademidaDotNet_ProjetoExemplo.WindowsForms.UI
                 provider.ProvidersAddres = txtAddres.Text;
             }
 
-            if (txtContactName.Text != string.Empty)
+            if (txtProviderContactName.Text != string.Empty)
             {
-                provider.ProvidersContactName = txtContactName.Text;
+                provider.ProvidersContactName = txtProviderContactName.Text;
+
             }
 
-            if (txtFoneNumber.Text != string.Empty)
+            if (txtProviderFoneNumber.Text != string.Empty)
             {
-                provider.ProvidersFone = txtFoneNumber.Text;
+                provider.ProvidersFoneNumber = txtProviderFoneNumber.Text;
             }
+            List<Providers> ProvidersList = new List<Providers>();
+            ProvidersList.Add(provider);
 
-            List<Providers> providersList = new List<Providers>();
-            providersList.Add(provider);
+            dgvProviders.DataSource = ProvidersList;
 
-            dgvProviders.DataSource = providersList;
         }
     }
 }

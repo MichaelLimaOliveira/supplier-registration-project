@@ -1,0 +1,11 @@
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\bin\Debug\ProvidersRegistration.UI.exe.config
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\bin\Debug\ProvidersRegistration.UI.exe
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\bin\Debug\ProvidersRegistration.UI.pdb
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.csproj.AssemblyReference.cache
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.csproj.SuggestedBindingRedirects.cache
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.Properties.Resources.resources
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.csproj.GenerateResource.cache
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.csproj.CoreCompileInputs.cache
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.exe
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.pdb
+D:\Repositorios\ProjetosPessoais\supplier-registration-project\ProvidersRegistration.UI\obj\Debug\ProvidersRegistration.UI.Form1.resources
