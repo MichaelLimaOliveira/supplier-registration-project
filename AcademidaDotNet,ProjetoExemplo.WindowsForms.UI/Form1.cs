@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AcademidaDotNet_ProjetoExemplo.WindowsForms.UI
 {
-    public partial class Form1 : Form
+    public partial class FFormularioInicial : Form
     {
-        public Form1()
+        public FFormularioInicial()
         {
             InitializeComponent();
         }
