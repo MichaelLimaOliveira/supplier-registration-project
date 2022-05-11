@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProvidersRegistration.UI
 {
-    internal class Providers
+    public class Providers
     {
         public string ProvidersName { get; set; }
         public string ProvidersAddres { get; set; }
         public string ProvidersContactName { get; set; }
-        public string ProvidersFoneNumber { get; set; }
-        
+        public string ProvidersFoneNumber { get; set; }        
     }
 }
